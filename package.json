@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-hijacking",
+  "version": "1.0.0",
+  "description": "ESLint Custom Config",
+  "main": "index.js",
+  "author": "ryan-dia",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.0.0"
+  }
+}
