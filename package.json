@@ -15,8 +15,12 @@
   },
   "peerDependencies": {
     "eslint": "^8.45.0",
-    "prettier": "^3.0.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-unused-imports": "^3.0.0"
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.9.0",
+    "eslint-plugin-prettier": "^5.0.0"
   }
 }
