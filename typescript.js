@@ -4,7 +4,7 @@ module.exports = {
     project: ['./tsconfig.json'],
   },
   plugins: ['@typescript-eslint'],
-  extends: ['plugin:@typescript-eslint/eslint-recommended'],
+  extends: ['plugin:@typescript-eslint/recommended-type-checked'],
   rules: {
     '@typescript-eslint/indent': 'off',
 
