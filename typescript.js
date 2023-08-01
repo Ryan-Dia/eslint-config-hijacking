@@ -1,7 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: ['./tsconfig.json'],
+    project: true,
   },
   plugins: ['@typescript-eslint'],
   extends: ['plugin:@typescript-eslint/recommended-type-checked'],
@@ -21,7 +21,6 @@ module.exports = {
 
     '@typescript-eslint/prefer-as-const': 'warn',
     '@typescript-eslint/no-non-null-asserted-optional-chain': 'warn',
-    '@typescript-eslint/ban-types': 'warn',
     '@typescript-eslint/no-inferrable-types': 'warn',
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/naming-convention': [
